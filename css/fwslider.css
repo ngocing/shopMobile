@@ -1,0 +1,97 @@
+/* ------------------------------- 3. Slider Styles ------------------------------- */
+.wrapfull {
+  display: flex;
+}
+
+.wrap-left {  
+    margin-top: 10px;
+}
+
+.wrap-right {   
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bnleft {
+  margin-bottom: 6px;
+}
+.owl-carousel .owl-stage-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #fffffe;
+}
+
+#banner2 img {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#sync1 {
+  height: 300px;
+  max-height: 300px;
+  width: 800px;
+}
+
+#sync2 {
+  width: 800px;
+  margin-bottom: 10px;
+}
+
+#sync1 .item {
+  text-align: center;
+}
+
+#sync2 .item {
+  background: #FFF;
+  padding: 10px;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  height: 30px;   
+}
+
+#sync2 .item h3 {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+#sync2 .current .item {
+  color: red;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+
+#sync1.owl-theme {
+  position: relative;
+}
+
+#sync1.owl-theme .owl-next,
+#sync1.owl-theme .owl-prev {
+  width: 25px;
+  height: 35px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  background: rgba(0,0,0,.3);
+  display: none;
+}
+
+#sync1.owl-theme:hover .owl-next,
+#sync1.owl-theme:hover .owl-prev {
+  display: inline;
+}
+
+#sync1.owl-theme .owl-prev {
+  left: 3px;
+}
+
+#sync1.owl-theme .owl-next {
+  right: 3px;
+}
